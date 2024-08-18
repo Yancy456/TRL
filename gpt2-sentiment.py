@@ -124,3 +124,50 @@ for epoch, batch in enumerate(tqdm(ppo_trainer.dataloader)):
     # Run PPO step
     stats = ppo_trainer.step(query_tensors, response_tensors, rewards)
     ppo_trainer.log_stats(stats, batch, rewards)
+
+# get a batch from the dataset
+bs = 16
+game_data = dict()
+dataset.set_format("pandas")
+df_batch = dataset[:].sample(bs)
+game_data["query"] = df_batch["query"].tolist()
+query_tensors = df_batch["input_ids"].tolist()
+
+response_tensors_ref, response_tensors = [], []
+
+# get response from gpt2 and gpt2_ref
+for i in range(bs):
+    gen_len = output_length_sampler()
+    output = ref_model.generate(
+        torch.tensor(query_tensors[i]).unsqueeze(dim=0).to(device), max_new_tokens=gen_len, **gen_kwargs
+    ).squeeze()[-gen_len:]
+    response_tensors_ref.append(output)
+    output = model.generate(
+        torch.tensor(query_tensors[i]).unsqueeze(dim=0).to(device), max_new_tokens=gen_len, **gen_kwargs
+    ).squeeze()[-gen_len:]
+    response_tensors.append(output)
+
+# decode responses
+game_data["response (before)"] = [tokenizer.decode(
+    response_tensors_ref[i]) for i in range(bs)]
+game_data["response (after)"] = [tokenizer.decode(
+    response_tensors[i]) for i in range(bs)]
+
+# sentiment analysis of query/response pairs before/after
+texts = [q + r for q, r in zip(game_data["query"],
+                               game_data["response (before)"])]
+pipe_outputs = sentiment_pipe(texts, **sent_kwargs)
+positive_scores = [item["score"]
+                   for output in pipe_outputs for item in output if item["label"] == "POSITIVE"]
+game_data["rewards (before)"] = positive_scores
+
+texts = [q + r for q, r in zip(game_data["query"],
+                               game_data["response (after)"])]
+pipe_outputs = sentiment_pipe(texts, **sent_kwargs)
+positive_scores = [item["score"]
+                   for output in pipe_outputs for item in output if item["label"] == "POSITIVE"]
+game_data["rewards (after)"] = positive_scores
+
+# store results in a dataframe
+df_results = pd.DataFrame(game_data)
+print(df_results)
