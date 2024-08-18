@@ -1,0 +1,206 @@
+{
+    "os": "Linux-5.4.0-150-generic-x86_64-with-glibc2.27",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-08-18T13:00:53.538268",
+    "startedAt": "2024-08-18T13:00:52.504921",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/gpt2-sentiment.py",
+    "codePathLocal": "gpt2-sentiment.py",
+    "codePath": "gpt2-sentiment.py",
+    "host": "pc09-ThinkStation-P920",
+    "username": "tmpStu",
+    "executable": "/home/pc09/user/tmpStudent/tmpStu/Anaconda3/envs/deep_learning3.9/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1719.3423750000002,
+        "min": 1200.0,
+        "max": 4000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.097,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.176,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4000.876,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3835.305,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.905,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.287,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.12,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1304.981,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.696,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.644,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3999.998,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.604,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.547,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.782,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.656,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1201.015,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1201.252,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.464,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3809.914,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4002.922,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.516,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.162,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1201.164,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1230.305,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.866,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.537,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3999.898,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1201.159,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.235,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.786,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.768,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1200.867,
+            "min": 1200.0,
+            "max": 4000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 233.17998886108398,
+            "used": 105.39808654785156
+        }
+    },
+    "gpu": "Quadro RTX 5000",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "Quadro RTX 5000",
+            "memory_total": 16905994240
+        },
+        {
+            "name": "Quadro RTX 5000",
+            "memory_total": 16908615680
+        }
+    ],
+    "memory": {
+        "total": 125.49950408935547
+    }
+}

@@ -1,0 +1,29 @@
+2024-08-18 21:00:52,510 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-08-18 21:00:52,511 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Configure stats pid to 25500
+2024-08-18 21:00:52,511 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Loading settings from /home/pc09/user/tmpStudent/.config/wandb/settings
+2024-08-18 21:00:52,511 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Loading settings from /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/settings
+2024-08-18 21:00:52,511 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-18 21:00:52,511 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-18 21:00:52,511 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'gpt2-sentiment.py', 'program_abspath': '/home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/gpt2-sentiment.py', 'program': '/home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/gpt2-sentiment.py'}
+2024-08-18 21:00:52,511 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-18 21:00:52,511 INFO    MainThread:25500 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-08-18 21:00:52,512 INFO    MainThread:25500 [wandb_init.py:_log_setup():524] Logging user logs to /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/run-20240818_210052-qmup3frg/logs/debug.log
+2024-08-18 21:00:52,512 INFO    MainThread:25500 [wandb_init.py:_log_setup():525] Logging internal logs to /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/run-20240818_210052-qmup3frg/logs/debug-internal.log
+2024-08-18 21:00:52,512 INFO    MainThread:25500 [wandb_init.py:init():607] calling init triggers
+2024-08-18 21:00:52,512 INFO    MainThread:25500 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {}
+2024-08-18 21:00:52,512 INFO    MainThread:25500 [wandb_init.py:init():657] starting backend
+2024-08-18 21:00:52,512 INFO    MainThread:25500 [wandb_init.py:init():661] setting up manager
+2024-08-18 21:00:52,515 INFO    MainThread:25500 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-18 21:00:52,516 INFO    MainThread:25500 [wandb_init.py:init():669] backend started and connected
+2024-08-18 21:00:52,521 INFO    MainThread:25500 [wandb_init.py:init():764] updated telemetry
+2024-08-18 21:00:52,522 INFO    MainThread:25500 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2024-08-18 21:00:53,221 INFO    MainThread:25500 [wandb_run.py:_on_init():2479] communicating current version
+2024-08-18 21:00:53,483 INFO    MainThread:25500 [wandb_run.py:_on_init():2488] got version response 
+2024-08-18 21:00:53,483 INFO    MainThread:25500 [wandb_init.py:init():848] starting run threads in backend
+2024-08-18 21:00:56,540 INFO    MainThread:25500 [wandb_run.py:_console_start():2457] atexit reg
+2024-08-18 21:00:56,540 INFO    MainThread:25500 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2024-08-18 21:00:56,541 INFO    MainThread:25500 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2024-08-18 21:00:56,541 INFO    MainThread:25500 [wandb_run.py:_redirect():2393] Redirects installed.
+2024-08-18 21:00:56,543 INFO    MainThread:25500 [wandb_init.py:init():891] run started, returning control to user process
+2024-08-18 21:02:27,391 WARNING MsgRouterThr:25500 [router.py:message_loop():77] message_loop has been closed

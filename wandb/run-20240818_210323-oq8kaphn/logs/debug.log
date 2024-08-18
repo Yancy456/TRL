@@ -1,0 +1,43 @@
+2024-08-18 21:03:23,641 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Configure stats pid to 26414
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Loading settings from /home/pc09/user/tmpStudent/.config/wandb/settings
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Loading settings from /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/settings
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'gpt2-sentiment.py', 'program_abspath': '/home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/gpt2-sentiment.py', 'program': '/home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/gpt2-sentiment.py'}
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_init.py:_log_setup():524] Logging user logs to /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/run-20240818_210323-oq8kaphn/logs/debug.log
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_init.py:_log_setup():525] Logging internal logs to /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/run-20240818_210323-oq8kaphn/logs/debug-internal.log
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_init.py:init():607] calling init triggers
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {}
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_init.py:init():657] starting backend
+2024-08-18 21:03:23,642 INFO    MainThread:26414 [wandb_init.py:init():661] setting up manager
+2024-08-18 21:03:23,645 INFO    MainThread:26414 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-18 21:03:23,646 INFO    MainThread:26414 [wandb_init.py:init():669] backend started and connected
+2024-08-18 21:03:23,650 INFO    MainThread:26414 [wandb_init.py:init():764] updated telemetry
+2024-08-18 21:03:23,651 INFO    MainThread:26414 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2024-08-18 21:03:24,356 INFO    MainThread:26414 [wandb_run.py:_on_init():2479] communicating current version
+2024-08-18 21:03:24,623 INFO    MainThread:26414 [wandb_run.py:_on_init():2488] got version response 
+2024-08-18 21:03:24,624 INFO    MainThread:26414 [wandb_init.py:init():848] starting run threads in backend
+2024-08-18 21:03:27,187 INFO    MainThread:26414 [wandb_run.py:_console_start():2457] atexit reg
+2024-08-18 21:03:27,187 INFO    MainThread:26414 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2024-08-18 21:03:27,187 INFO    MainThread:26414 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2024-08-18 21:03:27,187 INFO    MainThread:26414 [wandb_run.py:_redirect():2393] Redirects installed.
+2024-08-18 21:03:27,190 INFO    MainThread:26414 [wandb_init.py:init():891] run started, returning control to user process
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Configure stats pid to 26414
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Loading settings from /home/pc09/user/tmpStudent/.config/wandb/settings
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Loading settings from /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/settings
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'gpt2-sentiment.py', 'program_abspath': '/home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/gpt2-sentiment.py', 'program': '/home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/gpt2-sentiment.py'}
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_init.py:_log_setup():524] Logging user logs to /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/run-20240818_210344-revwgul2/logs/debug.log
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_init.py:_log_setup():525] Logging internal logs to /home/pc09/user/tmpStudent/0A_SoftwareProjects/TRL/wandb/run-20240818_210344-revwgul2/logs/debug-internal.log
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_init.py:init():607] calling init triggers
+2024-08-18 21:03:44,981 INFO    MainThread:26414 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {}
+2024-08-18 21:03:44,982 INFO    MainThread:26414 [wandb_init.py:init():652] wandb.init() called when a run is still active
+2024-08-18 21:03:44,982 INFO    MainThread:26414 [wandb_run.py:_config_callback():1386] config_cb None None {'trl_ppo_trainer_config': {'exp_name': 'gpt2-sentiment', 'seed': 0, 'log_with': 'wandb', 'task_name': None, 'model_name': 'lvwerra/gpt2-imdb', 'query_dataset': 'imdb', 'reward_model': 'sentiment-analysis:lvwerra/distilbert-imdb', 'remove_unused_columns': True, 'tracker_project_name': 'trl', 'steps': 20000, 'learning_rate': 1.41e-05, 'adap_kl_ctrl': True, 'init_kl_coef': 0.2, 'kl_penalty': 'kl', 'target': 6, 'horizon': 10000, 'gamma': 1, 'lam': 0.95, 'cliprange': 0.2, 'cliprange_value': 0.2, 'vf_coef': 0.1, 'batch_size': 128, 'forward_batch_size': None, 'mini_batch_size': 128, 'gradient_accumulation_steps': 1, 'world_size': 1, 'ppo_epochs': 4, 'max_grad_norm': None, 'optimize_cuda_cache': None, 'optimize_device_cache': False, 'early_stopping': False, 'target_kl': 1, 'compare_steps': 1, 'ratio_threshold': 10.0, 'use_score_scaling': False, 'use_score_norm': False, 'score_clip': None, 'whiten_rewards': False, 'gradient_checkpointing': False, 'is_encoder_decoder': False, 'is_peft_model': False, 'backward_batch_size': 128, 'global_backward_batch_size': 128, 'global_batch_size': 128, 'total_ppo_epochs': 157}}
+2024-08-18 21:04:15,105 WARNING MsgRouterThr:26414 [router.py:message_loop():77] message_loop has been closed
