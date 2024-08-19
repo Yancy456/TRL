@@ -1,15 +1,13 @@
 import wandb
+from trl.core import LengthSampler
+from trl import PPOTrainer, PPOConfig, AutoModelForCausalLMWithValueHead
+from datasets import load_dataset
+from transformers import pipeline, AutoTokenizer
 import torch
 from tqdm import tqdm
 import pandas as pd
 
-# tqdm.pandas()
-
-from transformers import pipeline, AutoTokenizer
-from datasets import load_dataset
-
-from trl import PPOTrainer, PPOConfig, AutoModelForCausalLMWithValueHead
-from trl.core import LengthSampler
+tqdm.pandas()
 
 config = PPOConfig(
     model_name="lvwerra/gpt2-imdb",
@@ -18,6 +16,7 @@ config = PPOConfig(
 )
 
 sent_kwargs = {"top_k": None, "function_to_apply": "none", "batch_size": 16}
+
 
 wandb.init()
 
@@ -171,3 +170,12 @@ game_data["rewards (after)"] = positive_scores
 # store results in a dataframe
 df_results = pd.DataFrame(game_data)
 print(df_results)
+
+print("mean:")
+print(df_results[["rewards (before)", "rewards (after)"]].mean())
+print()
+print("median:")
+print(df_results[["rewards (before)", "rewards (after)"]].median())
+
+model.save_pretrained('./weights_trained')
+tokenizer.save_pretrained('./weights_trained')
